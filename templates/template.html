@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %}Meu Site{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('index') }}">
+            <h3>Tarefas.com</h3>
+        </a>
+    </header>
+    <main>
+        {% block titulo_principal %} {% endblock %} 
+    </main>
+</body>
+</html>

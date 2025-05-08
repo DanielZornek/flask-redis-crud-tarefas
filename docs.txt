@@ -1,0 +1,28 @@
+Passo a Passo
+
+° Adquierir o Redis;
+° ter o Python superior ou igual a 3.7, igualmente a um pip
+atualizado para o Flask;
+    - py -m pip install --upgrade pip;
+° Instalar o Flask
+    - pip install Flask
+° E claro sempre desejáver usar ambiente virtual
+    com py -m venv ambienteVirtual
+    ativar navegando até o arquivo activate
+    que varia de linux/macos/windows a maneira
+° instalar a biblioiteca redis do Python
+    pip install redis
+
+PROJETO = Sistema de CRUD de tarefas
+
+Modelo de dados(Hash)
+
+{
+  "task:1": {
+    "id": "1",
+    "title": "Estudar Flask",
+    "description": "Ler a documentação",
+    "created_at": "2025-05-08",
+    "status": "Pendente"
+  }
+}
