@@ -8,3 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template('index.html')
+
+@app.route("/criar-tarefa")
+def criar_tarefa():
+    return render_template('add-tarefa.html')

@@ -10,9 +10,21 @@
         <a href="{{ url_for('index') }}">
             <h3>Tarefas.com</h3>
         </a>
+
+        <ul>
+            <li>
+                <a href="{{ url_for('criar-tarefa') }}">Nova Tarefa</a>
+            </li>
+            <li>
+                <a href="{{ url_for('listar-tarefas') }}">Ver tarefas</a>
+            </li>
+        </ul>
     </header>
     <main>
-        {% block titulo_principal %} {% endblock %} 
+        {% block titulo_principal %} {% endblock %}
+        {% block conteudo %} 
+
+        {%endblock%}
     </main>
 </body>
 </html>
