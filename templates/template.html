@@ -13,10 +13,7 @@
 
         <ul>
             <li>
-                <a href="{{ url_for('criar-tarefa') }}">Nova Tarefa</a>
-            </li>
-            <li>
-                <a href="{{ url_for('listar-tarefas') }}">Ver tarefas</a>
+                <a href="{{ url_for('criar_tarefa') }}">Nova Tarefa</a>
             </li>
         </ul>
     </header>
@@ -24,7 +21,7 @@
         {% block titulo_principal %} {% endblock %}
         {% block conteudo %} 
 
-        {%endblock%}
+        {% endblock %}
     </main>
 </body>
 </html>

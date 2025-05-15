@@ -26,3 +26,8 @@ Modelo de dados(Hash)
     "status": "Pendente"
   }
 }
+
+RODANDO Flask
+
+° No terminal digitar:
+    flask run 
